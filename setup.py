@@ -28,7 +28,7 @@ def get_version():
     if alpha and int(alpha) > 0:
         version += f"a{alpha}"
     return version'''
-    return "0.0.0a{alpha}"
+    return "0.0.0a1"
 
 
 setup(
